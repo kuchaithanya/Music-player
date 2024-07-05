@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   }
+   
+   .con{
+    width: 100%;
+    height: 100vh;
+    background-image: url(i.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+   }
+   .nav{
+    width: 80%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font: bolder; 
+   }
+   .nav ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+    margin: 0 15px;
+    font:normal;
+    font-family: fantasy; 
+   }
+   .nav u{
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+   Geneva, Verdana, sans-serif;
+    color:black; 
+   }
+   .nav ul li a{
+    text-decoration: double;
+    color: black;
+    font-size: 15px;
+   }
+   .content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+.left{
+ margin-left: 6%; }
+.left h1{
+ font-size: 90px;
+ color: white;
+ line-height: 110px;
+ float: left; }
+
+ .left h1 span{
+   font-size: 50px;
+   line-height: 100px;
+    }
+
+ 
+.right{
+ margin-bottom: 10px;
+ text-align: center;
+ margin-top: 25%;
+ display: flex;
+ align-content: center;
+ padding-left: 25%; }
+#iconl{
+ width: 93px;
+ cursor: pointer;
+ color:aliceblue;
+ display: flex;
+ padding-right: 35px;
+ filter: drop-shadow(0 1.2rem 3rem 0.5rem rgba(0 0 0 0.4)); }
+#icon1{
+ width: 93px;
+ cursor: pointer;
+ color:aliceblue;
+ align-items: center;
+ border-radius: 50%;
+ background-color: white; }
+#iconr{
+ width: 93px;
+ cursor: pointer;
+ color:aliceblue;
+ padding-left: 35px; }
+@media(max-width: 700px){
+ .nav ul li{
+ list-style: none;
+ display: inline-block;
+ text-align: right;
+ margin: 0 5px;
+ font:normal;
+ font-family: fantasy;
+}
+.nav u{
+ font-size: 7px;
+ color: black;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .nav ul li a{
+ color: black;
+ font-size: 7px;
+ }
+ .left h1{
+ font-size: 45px;
+ color: white;
+ line-height: 65px;
+ float: left;
+ align-items: center;
+ }
+ .right {
+ font-size: 32px;
+ color: black;
+ font-weight: 500;
+ align-items: center;
+ display: flex;
+ padding-right: 45%;
+ padding-top: 10%;
+ padding-left: 27%;
+ }
+ #iconl{
+ width: 35px;
+ cursor: pointer;
+ color: white;
+ }
+ #icon1{
+ width: 35px;
+ cursor: pointer;
+ color: white;
+ }
+ #iconr{
+ width: 35px;
+ cursor: pointer;
+ color: white;
+ 
+ }
+ #masterSongName{
+    text-align: left;
+    font-size:30px;
+    line-height: 50px;
+ }
+}
